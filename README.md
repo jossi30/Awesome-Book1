@@ -145,9 +145,9 @@ You can deploy this project using:
 
 👤 **Yosief G. Hailay**
 
-- GitHub: [jossi30](https://github.com/jossi30)
-- Twitter: [@_brilliantMindz](https://twitter.com/_brilliantMindz)
-- LinkedIn: [@_brilliantMindz](https://www.linkedin.com/in/brilliantmindz/)
+- GitHub: [@jossi30](https://github.com/jossi30)
+- Twitter: [@jossi30](https://twitter.com/jossi30_)
+- LinkedIn: [Yosief G. Hailay](https://www.linkedin.com/in/yosief-g-hailay-290277213/)
 
 👤 **Dilsher Balouch**
 
