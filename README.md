@@ -128,7 +128,7 @@ Clone this repository to your desired folder:
 ### Run tests
 
 - Check whether your fav book added 
-- Check your mood swings works 🧑‍🏫😁 according to my project
+- Check your mood swings works 🧑‍🏫😁 according to our project
  
 
 ### Deployment
