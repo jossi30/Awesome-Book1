@@ -5,7 +5,6 @@ const [title, author] = form.elements;
 const bookInput = {}; // empty object
 let books = []; // empty array
 
-
 // Storing Books //
 if (localStorage.bookSaved) {
   books = JSON.parse(localStorage.getItem('bookSaved'));
@@ -28,12 +27,12 @@ const populateFields = () => {
   localStorage.setItem('bookSaved', JSON.stringify(books));
 };
 
-// Add Book
-const addBooks = (add) => {
-  books.push(add);
+// Remove Book //
+function removeBook(book) {
+  const result = books.filter((b) => b !== book);
+  books = result;
   populateFields();
-  displayBooks();
-};
+}
 
 // Display Books //
 const displayBooks = () => {
@@ -64,6 +63,13 @@ const displayBooks = () => {
   });
 };
 
+// Add Book
+const addBooks = (add) => {
+  books.push(add);
+  populateFields();
+  displayBooks();
+};
+
 // Submit Form //
 form.addEventListener('submit', (e) => {
   e.preventDefault();
@@ -71,11 +77,5 @@ form.addEventListener('submit', (e) => {
   form.submit();
 });
 
-// Remove Book //
-function removeBook(book) {
-    const result = books.filter((b) => b !== book);
-    books = result;
-    populateFields();
-  }
 displayBooks();
 populateFields();
