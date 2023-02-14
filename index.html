@@ -1,44 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Awesome Books</title>
-  </head>
-  <body>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
     <main>
-      <h1>Awesome books</h1>
-      <div class="bookList">
-
-      </div>
-      <form class="formInput">
-        <ul>
-          <li>
-            <input
-              class="book-title"
-              type="text"
-              name="title"
-              placeholder="Title"
-              required
-            />
-          </li>
-          <li>
-            <input
-              class="book-author"
-              type="text"
-              name="author"
-              placeholder="Author"
-              required
-            />
-          </li>
-          <li>
-            <button class="add-btn" type="submit">Add</button>
-          </li>
-        </ul>
-      </form>
+        <section>
+            <h1>All Awesome Books</h1>
+            <div class="bookContainer">
+                
+            </div>
+        </section>
+        <hr>
+        <section>
+            <h2>Add a new book</h2>
+            <form>
+                <input type="text" placeholder="title" autofocus>
+                <input type="text" placeholder="author">
+                <div><button class="addBtn">Add</button></div>
+            </form>
+        </section>
     </main>
+
     <script src="main.js"></script>
-  </body>
+</body>
 </html>
