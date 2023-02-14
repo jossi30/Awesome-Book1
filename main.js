@@ -77,7 +77,5 @@ function removeBook(book) {
     books = result;
     populateFields();
   }
-
-
 displayBooks();
 populateFields();
