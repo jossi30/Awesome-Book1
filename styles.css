@@ -3,9 +3,6 @@ body {
   flex-direction: column;
   margin: 0;
   padding: 0;
-  /* box-sizing: border-box;
-  max-width: 600px;
-  margin: 0 auto; */
 }
 
 main {
@@ -42,13 +39,6 @@ hr {
   align-items: center;
   height: 2px;
   background-color: black;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  margin: 0 auto;
 }
 
 form {
@@ -105,4 +95,14 @@ footer {
 
 .hidden {
   display: none;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 80%;
+  }
+
+  .rotate {
+    width: 45px;
+  }  
 }
