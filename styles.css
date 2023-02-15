@@ -96,13 +96,3 @@ footer {
 .hidden {
   display: none;
 }
-
-@media screen and (max-width: 768px) {
-  body {
-    font-size: 80%;
-  }
-
-  .rotate {
-    width: 45px;
-  }  
-}
