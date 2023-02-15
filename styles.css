@@ -99,10 +99,18 @@ footer {
 
 @media screen and (max-width: 768px) {
   body {
-    font-size: 80%;
+    font-size: 60%;
   }
 
   .rotate {
-    width: 45px;
-  }  
+    width: 35px;
+  }
+
+  nav ul {
+    gap: 10px;
+  }
+
+  button {
+    width: 40%;
+  }
 }
