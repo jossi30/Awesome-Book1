@@ -1,7 +1,35 @@
 body {
-  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box;
   max-width: 600px;
+  margin: 0 auto; */
+}
+
+main {
+  width: 50%;
+  min-height: calc(100vh - 140px);
+  max-width: 400px;
   margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+}
+
+.rotate {
+  transform: rotate(90deg);
+  width: 55px;
 }
 
 h1,
@@ -19,7 +47,13 @@ hr {
 form {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  gap: 10px;
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
   gap: 10px;
   margin: 0 auto;
 }
@@ -37,6 +71,8 @@ form div {
   text-align: right;
 }
 
+nav,
+footer,
 .bookContainer {
   border: 2px outset rgb(95, 93, 93);
   border-radius: 5px;
@@ -51,4 +87,22 @@ form div {
 
 .innerContainer:nth-child(odd) {
   background-color: rgb(231, 227, 227);
+}
+
+li {
+  cursor: pointer;
+}
+
+nav,
+footer {
+  position: relative;
+  padding: 0 10px;
+}
+
+footer {
+  margin: 20px 0 5px 0;
+}
+
+.hidden {
+  display: none;
 }
